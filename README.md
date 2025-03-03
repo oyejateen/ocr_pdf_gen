@@ -5,7 +5,7 @@ A Streamlit application for OCR-based question extraction, editing, multilingual
 ## Demo
 
 
-![Untitledvideo-MadewithClipchamp2-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/d2ecb36b-95c9-4b0d-a6f8-f8ebe8877236)
+![Untitledvideo-MadewithClipchamp2](https://github.com/user-attachments/assets/d2ecb36b-95c9-4b0d-a6f8-f8ebe8877236)
 
 
 
