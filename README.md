@@ -2,11 +2,16 @@
 
 A Streamlit application for OCR-based question extraction, editing, multilingual translation, and PDF export.
 
+## Demo
+
+https://github.com/oyejateen/ocr_pdf_gen/assets/videofreekey.mp4
+
+
 ## Features
 
 1. **OCR-based Question Extraction**
    - Upload images containing text
-   - AI extracts questions and answer options
+   - AI extracts questions and answer options using Google Gemini
 
 2. **Question Editing & Management**
    - Edit extracted questions and options
@@ -42,10 +47,38 @@ A Streamlit application for OCR-based question extraction, editing, multilingual
    streamlit run app.py
    ```
 
+## How to Record and Add Your Demo
+
+1. **Record Your Demo:**
+   - Use screen recording software (like OBS, Loom, or ShareX)
+   - Demonstrate key features:
+     - Uploading an image
+     - Extracting questions
+     - Editing questions
+     - Exporting to PDF
+
+2. **Convert to GIF (Optional):**
+   - Use tools like ScreenToGif or online converters
+   - Recommended size: 640x480 or similar
+   - Keep file size under 10MB for GitHub
+
+3. **Add to GitHub:**
+   - Upload your video/GIF to your repository's Issues
+   - Copy the generated URL
+   - Replace the demo URL in this README
+
 ## Usage
 
 1. Upload an image with a question
 2. Review and edit the extracted question
 3. Add more questions manually if needed
 4. Translate questions to desired languages
-5. Export all questions to PDF 
+5. Export all questions to PDF
+
+## Contributing
+
+Feel free to open issues or submit pull requests for improvements.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 
