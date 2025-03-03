@@ -1,6 +1,6 @@
 streamlit==1.32.0
 google-generativeai==0.8.4
-google-ai-generativelanguage==0.4.0
+google-ai-generativelanguage==0.6.15
 langchain==0.3.19
 langchain-google-genai==2.0.11
 Pillow==9.5.0
