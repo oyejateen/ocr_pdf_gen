@@ -278,4 +278,4 @@ elif st.session_state.current_page == "manage":
 
 # Footer
 st.markdown("---")
-st.markdown("Smart Question Manager | Created with Streamlit and Google Gemini") 
+st.markdown("Smart Question Manager | Jatin Narayan") 
