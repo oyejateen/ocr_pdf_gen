@@ -4,8 +4,7 @@ A Streamlit application for OCR-based question extraction, editing, multilingual
 
 ## Demo
 
-https://github.com/oyejateen/ocr_pdf_gen/assets/demo.gif
-
+![Untitledvideo-MadewithClipchamp2-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/560576f2-9a6f-4001-b1d9-8fa78c3f547a)
 
 ## Features
 
