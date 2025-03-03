@@ -3,10 +3,8 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 import os
 
-# Load environment variables
 load_dotenv()
 
-# Initialize Google Generative AI
 os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 
 def structured_question_extraction(text):
@@ -14,7 +12,6 @@ def structured_question_extraction(text):
     Use LangChain and Google Gemini to parse raw OCR text into structured question and options
     """
     try:
-        # Create the prompt template
         template = """
         You are a question extraction expert. Given the following raw text extracted from an image,
         extract the question and its options in a structured format.
@@ -36,22 +33,17 @@ def structured_question_extraction(text):
         If the question or options are unclear, make your best guess.
         """
         
-        # Create the prompt
         prompt = PromptTemplate(
             input_variables=["raw_text"],
             template=template,
         )
         
-        # Initialize the LLM
         llm = ChatGoogleGenerativeAI(model="gemini-pro")
         
-        # Create the chain
         chain = prompt | llm
         
-        # Run the chain
         result = chain.invoke({"raw_text": text})
         
-        # Return the structured result
         return result.content
     except Exception as e:
         return f"Error in structured extraction: {str(e)}"

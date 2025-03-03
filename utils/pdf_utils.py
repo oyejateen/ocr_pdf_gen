@@ -28,17 +28,14 @@ class QuestionPDF(FPDF):
         """
         Add a question with its options to the PDF
         """
-        # Add language indicator if provided
         if language and language != "English":
             self.set_font("Arial", "B", 10)
             self.cell(0, 10, f"Language: {language}", 0, 1)
         
-        # Add question
         self.set_font("Arial", "B", 12)
         self.multi_cell(0, 10, f"{question_num}. {question_text}")
         self.ln(5)
         
-        # Add options if available
         if options and len(options) > 0:
             self.set_font("Arial", "", 12)
             for option in options:
@@ -68,7 +65,6 @@ def export_questions_to_pdf(questions, filepath="questions.pdf"):
             q.get("language", "English")
         )
     
-    # Create directory if it doesn't exist
     os.makedirs(os.path.dirname(filepath) or ".", exist_ok=True)
     
     # Save PDF

@@ -2,10 +2,8 @@ import os
 import google.generativeai as genai
 from dotenv import load_dotenv
 
-# Load environment variables
 load_dotenv()
 
-# Configure Google Gemini API
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 def extract_questions_with_gemini(image):
@@ -13,10 +11,8 @@ def extract_questions_with_gemini(image):
     Use Google Gemini to extract questions and options from an image
     """
     try:
-        # Get Gemini model
         model = genai.GenerativeModel('gemini-1.5-flash')
         
-        # Extract questions with Gemini
         prompt = """
         Extract the question and answer options from this image. 
         Format the output as follows:
@@ -66,7 +62,6 @@ def parse_question_text(text):
     question = ""
     options = []
     
-    # Simple parsing logic - can be improved based on actual format
     option_started = False
     for line in lines:
         line = line.strip()
