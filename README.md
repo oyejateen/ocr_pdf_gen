@@ -4,7 +4,7 @@ A Streamlit application for OCR-based question extraction, editing, multilingual
 
 ## Demo
 
-https://github.com/oyejateen/ocr_pdf_gen/assets/videofreekey.mp4
+https://github.com/oyejateen/ocr_pdf_gen/assets/demo.gif
 
 
 ## Features
