@@ -7,7 +7,7 @@ A Streamlit application for OCR-based question extraction, editing, multilingual
 
 ![Untitledvideo-MadewithClipchamp2](https://github.com/user-attachments/assets/d2ecb36b-95c9-4b0d-a6f8-f8ebe8877236)
 
-
+Please tap on the link if embed is not showing up!
 
 ## Features
 
